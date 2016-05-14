@@ -1,0 +1,29 @@
+{
+  "name": "react-bot",
+  "version": "0.1.0",
+  "description": "A guided chat for interviewing users",
+  "author": "Gil Barbara <gilbarbara@gmail.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilbarbara/react-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gilbarbara/react-bot/issues"
+  },
+  "homepage": "https://github.com/gilbarbara/react-bot",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react-component",
+    "chat",
+    "bot"
+  ],
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
