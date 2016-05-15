@@ -1,6 +1,8 @@
 import React from 'react';
-import Header from './../components/Header';
-import Footer from './../components/Footer';
+import Header from 'components/Header';
+import Footer from 'components/Footer';
+
+import '../../styles/main.scss';
 
 class App extends React.Component {
   static propTypes = {

@@ -1,5 +1,5 @@
 import React from 'react';
-import shouldComponentUpdate from '../utils/PureRender';
+import shouldComponentUpdate from 'utils/PureRender';
 
 export default class Header extends React.Component {
   static propTypes = {

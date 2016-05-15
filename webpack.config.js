@@ -48,11 +48,12 @@ if (build) {
 module.exports = {
   context: path.join(__dirname, 'app'),
   resolve: {
+    extensions: ['', '.js', '.jsx', '.scss'],
+    modules: [path.resolve(__dirname, 'app/scripts'), 'node_modules'],
+    modulesDirectories: [path.resolve(__dirname, 'app/scripts'), 'node_modules'], // DEPRECATED
     alias: {
-      modernizr$: path.resolve(__dirname, './.modernizrrc')
-    },
-    modulesDirectories: ['node_modules', 'bower_components'],
-    extensions: ['', '.js', '.jsx', '.scss']
+      modernizr$: path.resolve(__dirname, '.modernizrrc')
+    }
   },
   entry: {
     'scripts/app': './scripts/main.js',
